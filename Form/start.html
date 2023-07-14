@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML form marco</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <div>
+      <label for="email">email:</label>
+      <input type="email" name="email" placeholder="mariorossi@gmail.com">
+      </div>
+      <br>
+      <div>
+        <label for="password">password:</label>
+        <input type="password" name="password" placeholder="******">
+      </div>
+      <br>
+      <div>
+        <label for="name">name:</label>
+        <input type="text" name="name" placeholder="mario">
+        <br> <!--non so perche non funziona il <br> qui-->
+        <label for="last name">last name:</label>
+        <input type="text" name="last name" placeholder="rossi">
+      </div>
+      <br>
+      <div>
+        <label for="date">date of birth:</label>
+        <input type="date" name="date">
+      </div>
+      <br>
+      <div>
+        <label for="name">telephone number:</label>
+        <input type="number">
+      </div>
+      <br>
+      <div>
+        <label for="freeplane">free plan</label>
+        <input type="checkbox" name="freeplane">
+        <label for="plane">choose of 3 planes</label>
+       <select name="plane">
+        <optgroup>
+          <option value="10$">standard</option>
+          <option value="20$">deluxe</option>
+          <option value="30$">gold</option>
+        </optgroup>
+       </select>
+       <label for="proplane">pro plane</label>
+       <input type="checkbox" name="proplane">
+      </div>
+      <br>
+      <div>
+        <label for="credit">credit card number:</label>
+        <input type="number" name="credit">
+        <label for="cvc">CVC:</label>
+        <input type="number" name="cvc">
+      </div>
+      <br>
+      <div>
+        <label for="expiration">expiration date:</label>
+        <input type="datetime-local" name="expiration">
+      </div>
+      <br>
+      <div>
+        <label for="billing address">billing address:</label>
+        <input type="email" name="billing address">
+      </div>
+    </form>
+  </body>
+</html>
